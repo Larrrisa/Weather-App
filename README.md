@@ -1,5 +1,5 @@
 # WeatherApp
-Traditional weather app. API: https://openweathermap.org/.
+A traditional weather app. API: https://openweathermap.org/.
 
 ## Built with
 #### `HTML/CSS/React`
