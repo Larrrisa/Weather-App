@@ -25,7 +25,7 @@ function App() {
   const fetchData = async (inputValue) => {
     setIsLoading(true);
     try {
-      const link = `http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=30f236e20b11dc2477d9b1e50ef0518d&units=metric`;
+      const link = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=30f236e20b11dc2477d9b1e50ef0518d&units=metric`;
       const result = await fetch(link);
       const weatherData = await result.json();
       const temperature = Math.round(weatherData.main.temp);
