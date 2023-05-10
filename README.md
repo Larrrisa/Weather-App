@@ -10,6 +10,7 @@ You can add different cities for tracking weather. The app displays the temperat
 
 ## Link
 https://weather-app-theta-red.vercel.app/
+
 ![](chrome-capture-2023-4-11.gif)
 
 ## Available Scripts
