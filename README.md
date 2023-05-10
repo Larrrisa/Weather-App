@@ -8,6 +8,10 @@ A traditional weather app. API: https://openweathermap.org/.
 
 You can add different cities for tracking weather. The app displays the temperature and simple description. To view your local weather, simply click on the special button.
 
+## Link
+https://weather-app-theta-red.vercel.app/
+![](chrome-capture-2023-4-11.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
