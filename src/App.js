@@ -67,7 +67,7 @@ function App() {
       const lon = position.coords.longitude;
 
       try {
-        const link = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=30f236e20b11dc2477d9b1e50ef0518d&units=metric`;
+        const link = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=30f236e20b11dc2477d9b1e50ef0518d&units=metric`;
         const result = await fetch(link);
         const weatherData = await result.json();
         const temperature = Math.round(weatherData.main.temp);
